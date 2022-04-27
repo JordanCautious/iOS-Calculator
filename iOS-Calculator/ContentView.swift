@@ -33,7 +33,7 @@ enum CalcButton: String {
         case .add, .subtract, .mutliply, .divide, .equal:
             return .blue
         case .clear, .negative, .percent:
-            return Color(.lightGray)
+            return Color(.gray)
         default:
             return Color(UIColor(red: 55/255.0, green: 55/255.0, blue: 55/255.0, alpha: 1))
         }
